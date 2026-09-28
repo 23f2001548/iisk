@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Indira International School | Kota</title>
+    <meta name="description" content="Indira International School, Kota. Empowering Minds, Shaping Futures. CBSE Affiliated, Play Group to Class 12.">
+    
+    <!-- Google Fonts: Outfit (English) & Noto Sans Devanagari (Hindi) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Devanagari:wght@400;600&family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./src/css/style.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <a href="#home" class="logo-link" aria-label="Home">
+                <img src="./src/assets/iisklogo.webp" alt="Indira International School Logo" class="header-logo">
+            </a>
+            
+            <nav class="desktop-nav">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#academics">Academics</a></li>
+                    <li><a href="#admissions">Admissions</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            
+            <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Navigation">
+                ☰
+            </button>
+        </div>
+    </header>
+
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav" id="mobile-nav">
+        <ul>
+            <li><a href="#home" class="mobile-link">Home</a></li>
+            <li><a href="#about" class="mobile-link">About Us</a></li>
+            <li><a href="#academics" class="mobile-link">Academics & Facilities</a></li>
+            <li><a href="#admissions" class="mobile-link">Admissions</a></li>
+            <li><a href="#contact" class="mobile-link">Contact Us</a></li>
+            <li><a href="#" class="mobile-link">Public Disclosures (CBSE)</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="container hero-section">
+            <div class="hero-content">
+                <h1 class="hero-title">Empowering Minds, Shaping Futures</h1>
+                <p class="hero-subtitle">CBSE Affiliated Senior Secondary School • Play Group to Class 12</p>
+                <a href="#contact" class="btn btn-primary">Enquire for Admissions</a>
+            </div>
+            <div class="hero-image-wrapper">
+                <img src="./src/assets/school_building_hero_1790596964717.jpg" alt="Indira International School Campus">
+            </div>
+        </section>
+
+        <!-- Quick Stats -->
+        <div class="quick-stats">
+            <div class="container">
+                CBSE Affiliation: 1731086 | Established 2018 | Play Group to 12th
+            </div>
+        </div>
+
+        <!-- About Us Section -->
+        <section id="about" class="container">
+            <div class="section-title">Welcome to IIS</div>
+            <div class="grid contact-grid">
+                <div class="card">
+                    <h3>Our Vision</h3>
+                    <p style="margin-top: 1rem; color: var(--color-text-secondary);">To create a secure and stimulating learning environment where students are empowered to develop their intellectual, emotional, and social potential to the fullest.</p>
+                </div>
+                <div class="card">
+                    <h3>Principal's Message</h3>
+                    <p style="margin-top: 1rem; color: var(--color-text-secondary);">"Welcome to Indira International School. We believe in providing personalized guidance through our dedicated teachers and technology-integrated classrooms to shape the leaders of tomorrow."</p>
+                    <p style="margin-top: 1rem; font-weight: 600;">— Durgesh Nandini Saini, Principal</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Academics & Facilities -->
+        <section id="academics" class="container">
+            <h2 class="section-title">The IIS Advantage</h2>
+            <div class="grid feature-grid">
+                <div class="feature-item">
+                    <div class="feature-text">
+                        <h3>Technology-Integrated Classrooms</h3>
+                        <p style="margin-top: 1rem; color: var(--color-text-secondary);">Our smart classrooms make learning interactive and engaging, ensuring students grasp complex concepts with ease.</p>
+                    </div>
+                    <img src="./src/assets/students_in_classroom_1790596980720.jpg" alt="Students in modern classroom">
+                </div>
+                <div class="feature-item">
+                    <div class="feature-text">
+                        <h3>Modern Science Labs</h3>
+                        <p style="margin-top: 1rem; color: var(--color-text-secondary);">Hands-on practical learning with state-of-the-art infrastructure and personalized guidance from expert educators.</p>
+                    </div>
+                    <img src="./src/assets/science_lab_students_1790596995172.jpg" alt="Students in Science Lab">
+                </div>
+            </div>
+        </section>
+
+        <!-- Admissions Process -->
+        <section id="admissions" class="container" style="background-color: var(--color-surface); border-radius: var(--radius-lg); padding: var(--spacing-xl) var(--spacing-md); box-shadow: var(--shadow-sm); margin-bottom: var(--spacing-lg);">
+            <h2 class="section-title">Admissions Process</h2>
+            <div class="grid contact-grid">
+                <div>
+                    <ol style="padding-left: 1.5rem; display: flex; flex-direction: column; gap: 1rem; font-size: 1.1rem;">
+                        <li><strong>Enquire:</strong> Fill out the form below or call us to express interest.</li>
+                        <li><strong>Visit:</strong> Tour our campus and see our facilities firsthand.</li>
+                        <li><strong>Interact:</strong> A brief interaction session with the Principal.</li>
+                        <li><strong>Submit:</strong> Complete the admission form and submit required documents.</li>
+                    </ol>
+                </div>
+                <div class="card" style="background-color: var(--color-canvas); border: none;">
+                    <h3 style="margin-bottom: 1rem;">Required Documents</h3>
+                    <ul style="padding-left: 1.2rem; color: var(--color-text-secondary); display: flex; flex-direction: column; gap: 0.5rem;">
+                        <li>Birth Certificate</li>
+                        <li>Aadhar Card (Student & Parents)</li>
+                        <li>Previous Year Report Card</li>
+                        <li>Transfer Certificate (TC)</li>
+                        <li>Passport Size Photographs</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <div class="grid contact-grid">
+                
+                <!-- Info & Map -->
+                <div>
+                    <div style="margin-bottom: 2rem;">
+                        <p><strong>Address:</strong> Kaithun Road, Raipura, Kota, Rajasthan, 325001<br>
+                        <span style="color: var(--color-text-secondary); font-size: 0.9rem;">(Near Aryan College / Opposite Emmanuel Senior Secondary School)</span></p>
+                        
+                        <p style="margin-top: 1rem;"><strong>Phone:</strong> <a href="tel:+918955840161" style="color: var(--color-accent); font-weight: 600;">+91 89558 40161</a> / <a href="tel:8209737582" style="color: var(--color-accent); font-weight: 600;">8209737582</a></p>
+                        
+                        <p style="margin-top: 1rem;"><strong>Email:</strong> <a href="mailto:indiraschoolkota@gmail.com" style="color: var(--color-accent); font-weight: 600;">indiraschoolkota@gmail.com</a></p>
+                    </div>
+                    
+                    <div class="map-container">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14392.213192036725!2d75.8756914!3d25.1845612!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x396f9a56c42967ad%3A0xc3f6ef63b4b8b6e6!2sIndira%20International%20School!5e0!3m2!1sen!2sin!4v1690000000000!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
+                </div>
+
+                <!-- Web3Forms Enquiry Form -->
+                <div class="card">
+                    <h3 style="margin-bottom: 1.5rem;">Admission Enquiry</h3>
+                    <form action="https://api.web3forms.com/submit" method="POST" id="enquiry-form">
+                        <!-- IMPORTANT: Replace with your actual Web3Forms Access Key -->
+                        <input type="hidden" name="access_key" value="YOUR_ACCESS_KEY_HERE">
+                        <input type="hidden" name="subject" value="New Admission Enquiry from Website">
+                        
+                        <div class="form-group">
+                            <label for="name">Parent / Guardian Name</label>
+                            <input type="text" id="name" name="name" required placeholder="Enter full name">
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="phone">Mobile Number</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="10-digit mobile number" pattern="[0-9]{10}">
+                        </div>
+
+                        <div class="form-group">
+                            <label for="class">Class of Interest</label>
+                            <select id="class" name="class" required>
+                                <option value="">Select Class</option>
+                                <option value="Play Group">Play Group</option>
+                                <option value="Nursery">Nursery / LKG / UKG</option>
+                                <option value="Primary (1-5)">Primary (Class 1-5)</option>
+                                <option value="Middle (6-8)">Middle (Class 6-8)</option>
+                                <option value="Secondary (9-10)">Secondary (Class 9-10)</option>
+                                <option value="Senior Secondary (11-12)">Senior Secondary (Class 11-12)</option>
+                            </select>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Message (Optional)</label>
+                            <textarea id="message" name="message" rows="4" placeholder="Any specific questions?"></textarea>
+                        </div>
+                        
+                        <!-- Honeypot Spam Protection -->
+                        <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                        
+                        <button type="submit" class="btn btn-primary" style="width: 100%; margin-top: 1rem;">Submit Enquiry</button>
+                    </form>
+                    <p id="form-status" style="margin-top: 1rem; font-weight: 600; display: none; text-align: center;"></p>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div class="footer-col">
+                <h3>Indira International School</h3>
+                <p>Empowering Minds, Shaping Futures.</p>
+                <p style="margin-top: 1rem;">CBSE Affiliation No: 1731086</p>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="#about">About Us</a>
+                <a href="#academics">Academics</a>
+                <a href="#admissions">Admissions</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <div class="footer-col">
+                <h3>Compliance</h3>
+                <a href="#">Mandatory Public Disclosure</a>
+                <a href="#">CBSE Affiliation Certificate</a>
+                <a href="#">Fee Structure</a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            &copy; <span id="year"></span> Indira International School, Kota. All rights reserved.
+        </div>
+    </footer>
+
+    <!-- WhatsApp FAB -->
+    <a href="https://wa.me/918955840161?text=Hello%20Indira%20International%20School,%20I%20would%20like%20to%20enquire%20about%20admissions." target="_blank" class="fab-whatsapp" aria-label="Chat on WhatsApp">
+        <svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M380.9 97.1C339 55.1 283.2 32 223.9 32c-122.4 0-222 99.6-222 222 0 39.1 10.2 77.3 29.6 111L0 480l117.7-30.9c32.4 17.7 68.9 27 106.1 27h.1c122.3 0 224.1-99.6 224.1-222 0-59.3-25.2-115-67.1-157zM223.9 413.6c-32.9 0-65.1-8.8-93.5-25.5l-6.7-4-69.5 18.2 18.6-67.7-4.4-7c-18.4-29.2-28.1-63.1-28.1-98.1 0-101.4 82.5-184 184-184 54.1 0 105 21.1 143.2 59.3 38.2 38.2 59.3 89.1 59.3 143.2 0 101.5-82.5 183.6-184.1 183.6zM324.5 273.7c-5.5-2.7-32.5-16.1-37.5-17.9-5-1.8-8.7-2.7-12.4 2.7-3.7 5.5-14.2 17.9-17.4 21.6-3.2 3.7-6.4 4.1-11.9 1.4-5.5-2.7-23.2-8.5-44.2-27.2-16.3-14.6-27.3-32.6-30.4-38.1-3.2-5.5-.3-8.5 2.4-11.2 2.5-2.5 5.5-6.4 8.2-9.6 2.7-3.2 3.7-5.5 5.5-9.2 1.8-3.7.9-6.9-.5-9.6-1.4-2.7-12.4-30.1-17-41.2-4.5-10.8-9.1-9.3-12.4-9.5-3.2-.2-6.9-.2-10.6-.2-3.7 0-9.6 1.4-14.7 6.9-5 5.5-19.2 18.8-19.2 45.8 0 27 19.7 53.1 22.4 56.8 2.7 3.7 38.7 59.1 93.7 82.8 13.1 5.6 23.3 8.9 31.3 11.4 13.1 4.2 25 3.6 34.4 2.2 10.5-1.6 32.5-13.3 37.1-26.1 4.6-12.8 4.6-23.7 3.2-26.1-1.4-2.3-5-3.6-10.5-6.4z"></path></svg>
+    </a>
+
+    <script src="./src/js/main.js"></script>
+</body>
+</html>

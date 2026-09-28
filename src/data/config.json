@@ -1,0 +1,31 @@
+{
+  "schoolName": "Indira International School",
+  "tagline": "Empowering Minds, Shaping Futures",
+  "board": "CBSE, Senior Secondary",
+  "affiliationNo": "1731086",
+  "classesOffered": "Play Group to Class 12",
+  "establishedYear": "2018",
+  "address": {
+    "full": "Kaithun Road, Raipura, Kota, Rajasthan, 325001",
+    "landmark": "Near Aryan College / Opposite Emmanuel Senior Secondary School"
+  },
+  "contact": {
+    "primaryPhone": "+91 89558 40161",
+    "alternatePhone": "8209737582",
+    "primaryEmail": "indiraschoolkota@gmail.com",
+    "alternateEmail": "schoolindirainternational@gmail.com"
+  },
+  "principal": {
+    "name": "Durgesh Nandini Saini",
+    "message": "[TO BE PROVIDED]"
+  },
+  "highlights": [
+    "Technology-integrated classrooms",
+    "Personalised guidance from dedicated teachers",
+    "Co-curricular activities",
+    "Good infrastructure, labs and classrooms"
+  ],
+  "socialLinks": {
+    "whatsapp": "https://wa.me/918955840161"
+  }
+}
