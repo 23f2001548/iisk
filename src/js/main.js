@@ -19,6 +19,26 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Scroll Animations (Intersection Observer)
+    const fadeObserverOptions = {
+        root: null,
+        rootMargin: '0px',
+        threshold: 0.15
+    };
+
+    const fadeObserver = new IntersectionObserver((entries, observer) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                entry.target.classList.add('is-visible');
+                observer.unobserve(entry.target); // Only animate once
+            }
+        });
+    }, fadeObserverOptions);
+
+    document.querySelectorAll('.animate-on-scroll').forEach(el => {
+        fadeObserver.observe(el);
+    });
+
     // Current Year in Footer
     const yearSpan = document.getElementById('year');
     if (yearSpan) {
