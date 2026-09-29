@@ -25,12 +25,15 @@
 * **Key Actions**: Reading the About Us page, reviewing Academics and Facilities, checking the Admissions process.
 
 ## 4. MVP Scope (Phase 1 Build)
-* Fast, mobile-first informational static website.
+* Fast, mobile-first informational single-page static website.
 * Clear display of school details, affiliation, and contact info.
 * Simple Enquiry Form (Name, Phone, Class of interest, Message) that routes directly to the school's email.
 * WhatsApp click-to-chat and Click-to-call buttons.
+* Integrated Dark Mode with user preference persistence.
+* Dynamic Social Presence via Elfsight Instagram Widget.
+* Parent Testimonials section to build trust.
 * Dual language support consideration (English with a plan for a Hindi toggle).
-* Clean, professional UI adhering to modern design principles but avoiding heavy interactive bloat.
+* Clean, professional UI with smooth scroll animations (`IntersectionObserver`), adhering to modern design principles.
 
 ## 5. Non-Goals (Out of Scope for First Version)
 * NO fee payment gateway or processing.

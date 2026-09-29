@@ -14,11 +14,15 @@
 
 ## 2. Page-by-Page Content Plan
 
-### Home Page
+### Home Page (Single Page Layout)
 * **Hero Section**: High-quality campus image, School Name, Tagline ("Empowering Minds, Shaping Futures"), and a primary "Enquire Now" CTA.
 * **Quick Stats**: CBSE Affiliation (1731086), Established 2018, Classes (Play Group - 12).
-* **Highlights Banner**: Technology-integrated classrooms, dedicated teachers.
-* **Principal's Welcome (Brief)**: Short quote and link to About Us.
+* **About Us & Principal's Welcome**: Short quote and vision statement.
+* **Academics & Facilities**: Highlights like technology-integrated classrooms and labs.
+* **Testimonials**: "What Parents Say" section featuring parent reviews and ratings.
+* **Admissions**: Step-by-step process and required documents list.
+* **Social Presence**: Embedded live Instagram Feed via Elfsight.
+* **Contact Us**: Address, Phone, Email, Enquiry form, and interactive Google Map pin.
 * **Footer**: Address, Phone, Email, Map link, quick links.
 
 ### About Us

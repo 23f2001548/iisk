@@ -4,12 +4,13 @@
 A trustworthy, academic, and accessible interface. The density is balanced (Daily App Balanced) to ensure readability on small mobile screens. Variance is predictable but not boring, using structured asymmetry. Motion is calm, focused on tactile feedback rather than flashy animations. The atmosphere is professional, welcoming, and clearly focused on education.
 
 ## 2. Color Palette & Roles
-* **Canvas White** (`#F9FAFB`) — Primary background surface for a clean, breathable look.
-* **Pure Surface** (`#FFFFFF`) — Card and container fill.
-* **Charcoal Ink** (`#18181B`) — Primary text, ensuring high contrast and readability.
-* **Muted Steel** (`#71717A`) — Secondary text, descriptions, and metadata.
-* **Whisper Border** (`rgba(226,232,240,0.5)`) — Card borders, 1px structural dividers.
-* **Academic Blue** (`#1E3A8A`) — Single accent color for CTAs, primary buttons, and active states. Conveys trust and institutionality. (Saturation kept under control; no neon glows).
+The design system supports both **Light** and **Dark Mode** via CSS variables (`body.dark-mode`), swapping Canvas, Surface, Text, and Border colors while maintaining the Academic Blue accent.
+* **Canvas White** (`#F9FAFB`) / Dark (`#121212`) — Primary background surface for a clean, breathable look.
+* **Pure Surface** (`#FFFFFF`) / Dark (`#1E1E1E`) — Card and container fill.
+* **Charcoal Ink** (`#18181B`) / Light Text (`#F9FAFB`) — Primary text, ensuring high contrast and readability.
+* **Muted Steel** (`#71717A`) / Light Muted (`#A1A1AA`) — Secondary text, descriptions, and metadata.
+* **Whisper Border** (`rgba(226,232,240,0.5)`) / Dark Border (`rgba(255,255,255,0.1)`) — Card borders, 1px structural dividers.
+* **Academic Blue** (`#1E3A8A`) / Bright Blue (`#3B82F6`) — Accent color for CTAs, buttons, and active states.
 
 ## 3. Typography Rules
 * **Display:** `Outfit` (or `Satoshi`) — Track-tight, controlled scale, weight-driven hierarchy. Modern sans-serif that looks premium.
@@ -30,9 +31,10 @@ A trustworthy, academic, and accessible interface. The density is balanced (Dail
 * **Avoidance:** No 3-column equal card layouts horizontally if it feels generic; use asymmetric grids or alternating left-right blocks for features (Facilities/Academics).
 
 ## 6. Motion & Interaction
-* **Tactile Interactions:** Spring physics for button presses. 
-* **Hover States:** Subtle background shifts or gentle translation (e.g., cards lifting 2px on hover on desktop).
-* **Performance:** Animate exclusively via `transform` and `opacity`. No heavy JavaScript scrolljacking.
+* **Tactile Interactions**: Spring physics for button presses. 
+* **Hover States**: Subtle background shifts or gentle translation (e.g., cards lifting 2px on hover on desktop).
+* **Scroll Animations**: Elements fade and slide up as they enter the viewport using lightweight `IntersectionObserver` (`.animate-on-scroll` class).
+* **Performance**: Animate exclusively via `transform` and `opacity`. No heavy JavaScript scrolljacking.
 
 ## 7. Anti-Patterns (Banned)
 * No emojis anywhere.

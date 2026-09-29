@@ -9,7 +9,7 @@
 ### Mobile View
 ```text
 [ HEADER ]
-Logo (Left) | Hamburger Menu (Right)
+Logo (Left) | Dark Mode Toggle (☀️/🌙) | Hamburger Menu (Right)
 ------------------------------------
 [ HERO SECTION ]
 Image: Real photo of school building
@@ -30,6 +30,14 @@ Quote: "Welcome to a place where technology..."
 - Dedicated Teachers
 - Excellent Infrastructure
 ------------------------------------
+[ TESTIMONIALS ]
+- Parent Review Card (Mr. Sharma)
+- Parent Review Card (Mrs. Gupta)
+------------------------------------
+[ SOCIAL PRESENCE ]
+Follow Us on Instagram
+(Elfsight Instagram Widget Grid)
+------------------------------------
 [ FOOTER ]
 Address: Kaithun Road, Raipura...
 Phone: +91 89558 40161
@@ -40,7 +48,7 @@ Email: schoolindirainternational@gmail.com
 ### Desktop View
 ```text
 [ HEADER ]
-Logo | Home | Academics | Facilities | Admissions | Disclosure | Contact
+Logo | Home | About | Academics | Admissions | Contact | 🌙
 ------------------------------------
 [ HERO SECTION (Split Screen) ]
 Left: 
@@ -57,6 +65,12 @@ CBSE: 1731086  |  Est: 2018  |  Play Group - 12th
 [ THE IIS ADVANTAGE (Alternating Grid) ]
 [ Image ] [ Text: Tech Classrooms ]
 [ Text: Dedicated Staff ] [ Image ]
+------------------------------------
+[ TESTIMONIALS (2 Column Grid) ]
+[ Parent Review 1 ] [ Parent Review 2 ]
+------------------------------------
+[ SOCIAL PRESENCE ]
+Elfsight Instagram Widget
 ------------------------------------
 [ FOOTER (Multi-column) ]
 Col 1: Logo & Address
